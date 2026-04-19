@@ -49,3 +49,12 @@ SELECT
 FROM retail_sales_clean_final
 GROUP BY province
 ORDER BY total_sales DESC;
+
+-- 6. Basket Size (Sales per Transaction)
+
+SELECT
+    store_name,
+    SUM(total_sales_ty) / NULLIF(SUM(transactions_ty), 0) AS avg_basket_size
+FROM retail_sales_clean_final
+GROUP BY store_name
+ORDER BY avg_basket_size DESC;
