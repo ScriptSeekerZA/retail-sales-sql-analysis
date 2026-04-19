@@ -13,12 +13,13 @@ The objective is to simulate real-world retail data challenges and extract meani
 ---
 
 ##  Project Structure
+
 sql/
-├── 01_create_table.sql - Create base table
-├── 02_generate_data.sql - Generate clean sample data
-├── 03_dirty_data.sql - Simulate messy real-world data
-├── 04_clean_data.sql - Clean and standardize dataset
-└── 05_analysis.sql - Business insights
+├── 01_create_table.sql   - Create base table  
+├── 02_generate_data.sql  - Generate clean sample data  
+├── 03_dirty_data.sql     - Simulate messy data  
+├── 04_clean_data.sql     - Data cleaning process  
+└── 05_analysis.sql       - Business insights  
 
 
 ---
