@@ -1,6 +1,4 @@
-#  Retail Sales SQL Analysis
-
-##  SQL project cleaning and analyzing retail sales performance data (TY vs LY vs Target)   
+#  SQL project cleaning and analyzing retail sales performance data (TY vs LY vs Target)
 
 ##  Project Overview
 This project demonstrates a complete SQL data workflow — from raw data creation to cleaning and business analysis.
@@ -10,14 +8,15 @@ The goal was to simulate real-world retail data challenges and extract meaningfu
 ---
 
 ##  Project Structure
-sql/
-01_create_table.sql -- Create base table
-02_generate_data.sql -- Generate clean sample data
-03_dirty_data.sql -- Introduce real-world data issues
-04_clean_data.sql -- Clean and standardize dataset
-05_analysis.sql -- Business insights and analysis
 
---
+##  Project Structure
+
+sql/
+├── 01_create_table.sql   - Create base table  
+├── 02_generate_data.sql  - Generate clean sample data  
+├── 03_dirty_data.sql     - Simulate messy data  
+├── 04_clean_data.sql     - Data cleaning process  
+└── 05_analysis.sql       - Business insights  
 
 
 ---
