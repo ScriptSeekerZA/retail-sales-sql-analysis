@@ -18,7 +18,7 @@ sql/
 ├── 02_generate_data.sql - Generate clean sample data
 ├── 03_dirty_data.sql - Simulate messy real-world data
 ├── 04_clean_data.sql - Clean and standardize dataset
-└── 05_analysis.sql - Business insights and analysis
+└── 05_analysis.sql - Business insights
 
 
 ---
